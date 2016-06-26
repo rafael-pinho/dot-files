@@ -1,6 +1,8 @@
 # dot-files
 
-Linux configuration files and scripts. To use any file you can clone this repo with git or:
+Linux configuration files and scripts. 
+
+This is not a project. This is just my linux config files and scripts. I put here because is better than a backup and I can document all here. But you can use too. To use any file you can clone this repo with git or:
 
 ```
 curl file-raw-url > my-new-file.sh

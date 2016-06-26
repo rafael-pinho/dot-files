@@ -64,7 +64,8 @@ function config_network(){
 
 	ws "installing network manager"
 	pacman -S network-manager network-manager-applet
-
+	systemctl enable NetworkManager.service
+	
 	ws "Press any key to continue"
 	read
 }
