@@ -30,6 +30,7 @@ function browser_install(){
 	case $BROWSER in
 	  1)
 	    sudo pacman -S opera
+	    yaourt -S chromium-pepper-flash
 	    ;;
 	  2)
 	    sudo pacman -S firefox
