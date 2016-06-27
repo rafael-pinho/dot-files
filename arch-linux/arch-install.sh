@@ -33,7 +33,7 @@ function config_language(){
 	sed "s/#${LANGUAGE}.UTF-8 UTF-8/${LANGUAGE}.UTF-8 UTF-8/g" /etc/locale.gen > temp
 	cat temp > /etc/locale.gen
 	rm temp
-    locale-gen
+    	locale-gen
 
 	ws "if you do not run this script with source or . export LANG variable"
 	ws "export LANG=${LANGUAGE}.UTF-8"
@@ -126,7 +126,6 @@ function config_graphical_env(){
 }
 
 function config_yaourt(){
-
 	ws "adding yaourt repo to pacman"
 	cat << "EOF" >> /etc/pacman.conf
 
@@ -140,7 +139,7 @@ EOF
 	pacman -Sy yaourt
 
 	ws "Press any key to continue"
-    read
+    	read
 }
 
 function install_tools(){
