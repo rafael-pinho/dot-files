@@ -52,7 +52,7 @@ function config_clock(){
 
 	ws "Press any key to continue"
 	read
-}
+} 
 
 function config_network(){
 	ws "input your hostname:"
