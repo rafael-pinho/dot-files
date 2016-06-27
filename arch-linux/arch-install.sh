@@ -103,7 +103,7 @@ function config_grub(){
 
 function config_graphical_env(){
 	ws "installing sound packages"
-	pacman -S alsa-utils 
+	pacman -S alsa-utils pavucontrol
 
 	ws "installing X"
 	pacman -S xorg-server xorg-xinit xorg-server-utils xorg-xrandr lxrandr
