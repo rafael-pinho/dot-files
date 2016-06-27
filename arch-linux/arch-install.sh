@@ -194,13 +194,13 @@ case $USER_INPUT in
 	3)
 	    config_clock
 	    ;;
-    4)
+	4)
 	    config_network
 	    ;;
 	5)
 	    config_user
 	    ;;
-    6)
+    	6)
 	    config_grub
 	    ;;
 	7)
