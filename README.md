@@ -2,7 +2,9 @@
 
 Linux configuration files and scripts. 
 
-This is not a project. This is just my linux config files and scripts. I put here because is better than a backup and I can document all here. But you can use too. To use any file you can clone this repo with git or:
+This is not a project. This is just my linux config files and scripts. 
+I put this files here because is better than backup and I can document all here. 
+Well, you can use this files too. Just clone or:
 
 ```
 curl file-raw-url > my-new-file.sh
@@ -26,16 +28,18 @@ Get this script by the following url:
 <br>
 <br>
 
-#### [Arch Linux i3wm installation](/arch-linux/arch-i3-install.sh)
+#### [Arch Linux i3wm installation](/arch-linux/environments/i3/install.sh)
 
 Install i3 window manager with i3status, i3lock and dmenu. Also change xinitrc to start i3 when startx is called. 
 
 Get this script by the following url:
- - https://raw.githubusercontent.com/rafael-pinho/dot-files/master/arch-linux/arch-i3-install.sh
+ - https://raw.githubusercontent.com/rafael-pinho/dot-files/master/arch-linux/environments/i3/install.sh
+I3 .conf file
+ - https://raw.githubusercontent.com/rafael-pinho/dot-files/master/arch-linux/environments/i3/install.sh
 <br>
 <br>
 
-#### [Arch Linux software installation](/arch-linux/arch-software-install.sh)
+#### [Software installation](/arch-linux/software-install.sh)
 
 Install software to common use, development and other thinks. 
 
@@ -68,8 +72,10 @@ Get this script by the following url:
 <br>
 <br>
 
-####Arch Linux .conf files
+#### My Arch Linux Packges
 
-- i3
- - [i3 wm](/arch-linux/.i3/i3.conf)
- - [i3 status](/arch-linux/.i3/i3status.conf)
+The current instaled packages in my arch linux install (27-06-2016).
+I think this is not very usefull for you...but is for me :)
+
+ - [pacman](/arch-linux/packages/pacman.sh)
+ - [yaourt](/arch-linux/packages/yaourt.sh)
