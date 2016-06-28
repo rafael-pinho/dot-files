@@ -28,16 +28,6 @@ Get this script by the following url:
 <br>
 <br>
 
-#### [Arch Linux i3wm installation](/arch-linux/environments/i3/install.sh)
-
-Install i3 window manager with i3status, i3lock and dmenu. Also change xinitrc to start i3 when startx is called. 
-
-Installation script and .conf files are avaliable:
- - [install.sh](https://raw.githubusercontent.com/rafael-pinho/dot-files/master/arch-linux/environments/i3/install.sh)
- - [i3.conf file](https://raw.githubusercontent.com/rafael-pinho/dot-files/master/arch-linux/environments/i3/i3.conf)
-<br>
-<br>
-
 #### [Software installation](/arch-linux/software-install.sh)
 
 Install software to common use, development and other thinks. 
@@ -68,6 +58,16 @@ Install software to common use, development and other thinks.
 
 Get this script by the following url:
  - https://raw.githubusercontent.com/rafael-pinho/dot-files/master/arch-linux/arch-software-install.sh
+<br>
+<br>
+
+#### [Arch Linux i3wm installation](/arch-linux/environments/i3)
+
+Install i3 window manager with i3status, i3lock and dmenu. Also change xinitrc to start i3 when startx is called. 
+
+Installation script and .conf files are avaliable:
+ - [install.sh](https://raw.githubusercontent.com/rafael-pinho/dot-files/master/arch-linux/environments/i3/install.sh)
+ - [i3.conf](https://raw.githubusercontent.com/rafael-pinho/dot-files/master/arch-linux/environments/i3/i3.conf)
 <br>
 <br>
 
