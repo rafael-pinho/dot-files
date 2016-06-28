@@ -71,10 +71,10 @@ Installation script and .conf files are avaliable:
 <br>
 <br>
 
-#### My Arch Linux Packges
+#### [My Arch Linux Packges](/arch-linux/packages)
 
 The current instaled packages in my arch linux install (27-06-2016).
 I think this is not very usefull for you...but is for me :)
 
- - [pacman](/arch-linux/packages/pacman.sh)
- - [yaourt](/arch-linux/packages/yaourt.sh)
+ - [pacman](https://raw.githubusercontent.com/rafael-pinho/dot-files/master/arch-linux/packages/pacman.sh)
+ - [yaourt](https://raw.githubusercontent.com/rafael-pinho/dot-files/master/arch-linux/packages/yaourt.sh)
