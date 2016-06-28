@@ -32,10 +32,9 @@ Get this script by the following url:
 
 Install i3 window manager with i3status, i3lock and dmenu. Also change xinitrc to start i3 when startx is called. 
 
-Get this script by the following url:
- - https://raw.githubusercontent.com/rafael-pinho/dot-files/master/arch-linux/environments/i3/install.sh
-I3 .conf file
- - https://raw.githubusercontent.com/rafael-pinho/dot-files/master/arch-linux/environments/i3/install.sh
+Installation script and .conf files are avaliable:
+ - [install.sh](https://raw.githubusercontent.com/rafael-pinho/dot-files/master/arch-linux/environments/i3/install.sh)
+ - [i3.conf file](https://raw.githubusercontent.com/rafael-pinho/dot-files/master/arch-linux/environments/i3/i3.conf)
 <br>
 <br>
 
