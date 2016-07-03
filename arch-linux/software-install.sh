@@ -8,7 +8,7 @@ function text_editor_install(){
 	read TEXT_EDITOR
 
 	case $TEXT_EDITOR in
-	  1)
+		1)
 	    sudo pacman -S gedit
 	    ;;
 	  2)
@@ -18,6 +18,9 @@ function text_editor_install(){
 	    yaourt -S visual-studio-code
 	    ;;
 	esac
+	
+	echo "Press any key to continue..."
+	read
 }
 
 function browser_install(){
@@ -39,6 +42,9 @@ function browser_install(){
 	    yaourt -S google-chrome
 	    ;;
 	esac
+		
+	echo "Press any key to continue..."
+	read
 }
 
 function file_manager_install(){
@@ -48,13 +54,16 @@ function file_manager_install(){
   read FILE_MANAGER
 
   case $FILE_MANAGER in
-	  1)
+  	1)
 	    sudo pacman -S ranger
 	    ;;
-    2)
+  	2)
 	    sudo pacman -S nautilus
 	    ;;
 	esac
+		
+	echo "Press any key to continue..."
+	read
 }
 
 function music_players_install(){
@@ -71,6 +80,9 @@ function music_players_install(){
 	    yaourt -S playerctl
 	    ;;
 	esac
+
+	echo "Press any key to continue..."
+	read
 }
 
 function wallpaper_manager_install(){
@@ -87,14 +99,23 @@ function wallpaper_manager_install(){
 	    sudo pacman -S nitrogen
 	    ;;
 	esac
+		
+	echo "Press any key to continue..."
+	read
 }
 
 function ssh_client_install(){
   sudo pacman -S openssh
+  
+	echo "Press any key to continue..."
+	read
 }
 
 function nvm_install(){
 	yaourt -S nvm-git
+		
+	echo "Press any key to continue..."
+	read
 }
 
 function docker_install(){
@@ -102,6 +123,9 @@ function docker_install(){
 	systemctl enable docker
 	curl -L https://github.com/docker/compose/releases/download/1.7.0/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/dc
 	chmod +x /usr/local/bin/dc
+		
+	echo "Press any key to continue..."
+	read
 }
 
 while [ "$USER_INPUT" != ":quit" ]; do
