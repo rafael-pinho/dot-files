@@ -63,7 +63,7 @@ function config_network(){
 	echo ${HOSTNAME} > /etc/hostname
 
 	ws "installing network manager"
-	pacman -S network-manager network-manager-applet
+	pacman -S networkmanager network-manager-applet
 	systemctl enable NetworkManager.service
 	
 	ws "Press any key to continue"
