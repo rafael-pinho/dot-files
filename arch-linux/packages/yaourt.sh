@@ -6,4 +6,4 @@ playerctl \
 spotify \
 visual-studio-code \
 vte-notification-common \
-vte3-notification 
+vte3-notification
