@@ -17,22 +17,7 @@ function get_repos(){
 }
 
 function install_browser(){
-	echo "Select browser"
-	echo "1- Google Chrome"
-	echo "2- Opera"
-	read BROWSER
-  
-	case $BROWSER in
-	  1)
-	    sudo yum install google-chrome-stable
-	    ;;
-	  2)
-	    sudo yum install opera
-	    ;;
-	esac
-		
-	echo "Press any key to continue..."
-	read
+	sudo yum install google-chrome-stable
 }
 
 function install_developer_tools(){
@@ -40,8 +25,6 @@ function install_developer_tools(){
 
 	curl https://raw.githubusercontent.com/creationix/nvm/v0.30.2/install.sh | bash
 	source ~/.bashrc
-	
-	sudo yum install golang
 	
 	echo "Press any key to continue..."
         read
@@ -59,8 +42,8 @@ echo "choose what you want to do"
 printf "\n"
 echo "0 ............... all"
 echo "1 ............... get repos"
-echo "2 ............... browser"
-echo "3 ............... git, nvm, golang and docker"
+echo "2 ............... google chrome"
+echo "3 ............... git, nvm and docker"
 printf "\n\n:quit - EXIT\n\n"
 read USER_INPUT
 
