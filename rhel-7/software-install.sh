@@ -4,7 +4,6 @@ function get_repos(){
 	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repo-list/docker.repo > /etc/yum.repo.d/
 	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repo-list/google-chrome.repo > /etc/yum.repo.d/
 	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repo-list/google.repo > /etc/yum.repo.d/
-	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repo-list/opera.repo > /etc/yum.repo.d/
 	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repo-list/epel.repo > /etc/yum.repo.d/
 	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repo-list/epel-testing.repo > /etc/yum.repo.d/
 	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repo-list/mirrors-rpmforge > /etc/yum.repo.d/
