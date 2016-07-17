@@ -1,15 +1,13 @@
 #!/bin/bash
 
 function get_repos(){
+	sudo yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+	sudo yum install http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el7.rf.x86_64.rpm
+	sudo yum install http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el7.rf.x86_64.rpm
+	
 	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repo-list/docker.repo > /etc/yum.repo.d/
 	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repo-list/google-chrome.repo > /etc/yum.repo.d/
 	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repo-list/google.repo > /etc/yum.repo.d/
-	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repo-list/epel.repo > /etc/yum.repo.d/
-	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repo-list/epel-testing.repo > /etc/yum.repo.d/
-	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repo-list/mirrors-rpmforge > /etc/yum.repo.d/
-	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repo-list/mirrors-rpmforge-extras > /etc/yum.repo.d/
-	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repo-list/mirrors-rpmforge-testing > /etc/yum.repo.d/
-	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repo-list/rpmforge.repo > /etc/yum.repo.d/
 	
 	echo "Press any key to continue..."
         read
