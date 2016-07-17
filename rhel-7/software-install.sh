@@ -3,7 +3,7 @@
 function get_repos(){
 	sudo yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 	sudo yum install http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el7.rf.x86_64.rpm
-	sudo yum install http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el7.rf.x86_64.rpm
+	sudo yum install https://rhel7.iuscommunity.org/ius-release.rpm
 	
 	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repo-list/docker.repo > /etc/yum.repo.d/
 	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repo-list/google-chrome.repo > /etc/yum.repo.d/
