@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# 2 13 15 17 18 19 20 21 22 23 24 25 26 40 41 46
 sudopacman sudo -S gnome
 sudo systemctl enable gdm.service
 

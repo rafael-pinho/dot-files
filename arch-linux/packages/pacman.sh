@@ -1,4 +1,4 @@
-pacman -S \
+pacman -S 
 aalib \
 accountsservice \
 acl \
@@ -43,7 +43,6 @@ chromaprint \
 cifs-utils \
 clutter \
 clutter-gst \
-clutter-gst2 \
 clutter-gtk \
 cogl \
 colord \
@@ -81,22 +80,20 @@ dosfstools \
 dvd+rw-tools \
 e2fsprogs \
 elfutils \
-empathy \
 enca \
 enchant \
 evince \
-evolution-data-server \
 exempi \
 exiv2 \
 expat \
 faac \
 faad2 \
 fakeroot \
-farstream \
 feh \
 ffmpeg \
 fftw \
 file \
+file-roller \
 filesystem \
 findutils \
 fish \
@@ -104,7 +101,6 @@ fixesproto \
 flac \
 flex \
 fluidsynth \
-folks \
 fontconfig \
 fontsproto \
 freetype2 \
@@ -136,6 +132,7 @@ glibmm \
 glu \
 gmime \
 gmp \
+gnome-backgrounds \
 gnome-bluetooth \
 gnome-calculator \
 gnome-color-manager \
@@ -153,6 +150,8 @@ gnome-session \
 gnome-settings-daemon \
 gnome-shell \
 gnome-shell-extensions \
+gnome-sound-recorder \
+gnome-system-log \
 gnome-system-monitor \
 gnome-terminal \
 gnome-themes-standard \
@@ -184,6 +183,7 @@ gst-plugins-base-libs \
 gst-plugins-good \
 gstreamer \
 gtk-doc \
+gtk-engine-murrine \
 gtk-update-icon-cache \
 gtk2 \
 gtk3 \
@@ -253,7 +253,6 @@ libcap-ng \
 libcddb \
 libcdio \
 libcdio-paranoia \
-libchamplain \
 libcroco \
 libcue \
 libcups \
@@ -315,7 +314,6 @@ libnautilus-extension \
 libndp \
 libnewt \
 libnftnl \
-libnice \
 libnl \
 libnm-glib \
 libnotify \
@@ -328,7 +326,6 @@ libpaper \
 libpciaccess \
 libpeas \
 libpgm \
-libphonenumber \
 libpipeline \
 libplist \
 libpng \
@@ -460,12 +457,12 @@ neon \
 netcdf \
 netctl \
 nettle \
-network-manager-applet \
 networkmanager \
 nm-connection-editor \
 npth \
 nspr \
 nss \
+numix-themes \
 opencore-amr \
 openjpeg \
 openresolv \
@@ -484,7 +481,6 @@ pango \
 pangomm \
 parted \
 patch \
-pavucontrol \
 pciutils \
 pcmciautils \
 pcre \
@@ -498,7 +494,6 @@ poppler \
 poppler-glib \
 popt \
 procps-ng \
-protobuf \
 psmisc \
 pulseaudio \
 pulseaudio-alsa \
@@ -561,7 +556,6 @@ taglib \
 talloc \
 tar \
 tdb \
-telepathy-farstream \
 telepathy-glib \
 telepathy-logger \
 telepathy-mission-control \
@@ -587,7 +581,6 @@ wavpack \
 wayland \
 wayland-protocols \
 webkit2gtk \
-webkitgtk \
 webrtc-audio-processing \
 wget \
 which \
@@ -595,7 +588,6 @@ wildmidi \
 wireless_tools \
 wpa_supplicant \
 x265 \
-xapian-core \
 xbindkeys \
 xbitmaps \
 xcb-proto \
@@ -605,6 +597,8 @@ xcb-util-image \
 xcb-util-keysyms \
 xcb-util-renderutil \
 xcb-util-wm \
+xdg-user-dirs \
+xdg-user-dirs-gtk \
 xextproto \
 xf86-input-evdev \
 xf86-input-synaptics \
@@ -657,10 +651,9 @@ yajl \
 yaourt \
 yelp-tools \
 yelp-xsl \
-zeitgeist \
 zenity \
 zeromq \
 zip \
 zita-alsa-pcmi \
 zita-resampler \
-zlib
+zlib 
