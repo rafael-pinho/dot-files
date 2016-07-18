@@ -30,6 +30,10 @@ function install_developer_tools(){
         read
 }
 
+function install_numix(){
+	sudo yum install numix-gtk-theme numix-icon-theme-circle
+}
+
 while [ "$USER_INPUT" != ":quit" ]; do
 
 clear
@@ -46,7 +50,8 @@ printf "\n"
 echo "0 ............... all"
 echo "1 ............... get repos"
 echo "2 ............... google chrome"
-echo "3 ............... git, nvm and docker"
+echo "3 ............... git, docker and nvm"
+echo "4 ............... numix"
 printf "\n\n:quit - EXIT\n\n"
 read USER_INPUT
 
@@ -64,6 +69,9 @@ case $USER_INPUT in
 	    ;;
 	3)
 	    install_developer_tools
+	    ;;
+	4)
+	    install_numix
 	    ;;
 esac
 
