@@ -13,9 +13,10 @@ chmod +x my-new-file.sh
 ```
 
 See a list of avaliable files below.
-<br>
-<br>
 
+<br>
+<br>
+## Arch-Linux
 #### [Arch Linux installation script](/arch-linux/arch-install.sh)
 
 Script created to help during arch linux installation. All steps is based on archlinux wiki tutorials. For more info about arch-linux install see:
@@ -78,3 +79,21 @@ I think this is not very usefull for you...but is for me :)
 
  - [pacman](https://raw.githubusercontent.com/rafael-pinho/dot-files/master/arch-linux/packages/pacman.sh)
  - [yaourt](https://raw.githubusercontent.com/rafael-pinho/dot-files/master/arch-linux/packages/yaourt.sh)
+
+<br>
+<br>
+## RHEL-7
+#### [Software installation](/rhel-7/software-install.sh)
+
+Install software to common use, development and other thinks to complement "server with gui" installation. 
+
+- Repositories
+ - Google Chrome
+ - Docker
+- Browser
+ - Google-Chrome
+- Developer tools
+ - Docker
+ - Docker-Compose
+ - Git
+ - Nvm
