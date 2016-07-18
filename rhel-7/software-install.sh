@@ -5,9 +5,10 @@ function get_repos(){
 	sudo yum install http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el7.rf.x86_64.rpm
 	sudo yum install https://rhel7.iuscommunity.org/ius-release.rpm
 	
-	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repos-list/docker.repo > /etc/yum.repo.d/docker.repo 
-	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repos-list/google-chrome.repo > /etc/yum.repo.d/google-chrome.repo
-	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repos-list/google.repo > /etc/yum.repo.d/google.repo
+	sudo curl http://download.opensuse.org/repositories/home:paolorotolo:numix/RedHat_RHEL-6/home:paolorotolo:numix.repo > /etc/yum.repos.d/numix.repo
+	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repos-list/docker.repo > /etc/yum.repos.d/docker.repo 
+	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repos-list/google-chrome.repo > /etc/yum.repos.d/google-chrome.repo
+	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repos-list/google.repo > /etc/yum.repos.d/google.repo
 	
 	echo "Press any key to continue..."
         read
