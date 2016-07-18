@@ -5,9 +5,9 @@ function get_repos(){
 	sudo yum install http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el7.rf.x86_64.rpm
 	sudo yum install https://rhel7.iuscommunity.org/ius-release.rpm
 	
-	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repo-list/docker.repo > /etc/yum.repo.d/
-	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repo-list/google-chrome.repo > /etc/yum.repo.d/
-	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repo-list/google.repo > /etc/yum.repo.d/
+	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repos-list/docker.repo > /etc/yum.repo.d/docker.repo 
+	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repos-list/google-chrome.repo > /etc/yum.repo.d/google-chrome.repo
+	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repos-list/google.repo > /etc/yum.repo.d/google.repo
 	
 	echo "Press any key to continue..."
         read
@@ -19,7 +19,8 @@ function install_browser(){
 
 function install_developer_tools(){
 	sudo yum install git docker
-
+	systemctl enable docker.service
+	
 	curl https://raw.githubusercontent.com/creationix/nvm/v0.30.2/install.sh | bash
 	source ~/.bashrc
 	
