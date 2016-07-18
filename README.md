@@ -13,6 +13,7 @@ chmod +x my-new-file.sh
 ```
 
 See a list of avaliable files below.
+
 <br>
 <br>
 ## Arch-Linux
