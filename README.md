@@ -62,6 +62,15 @@ Get this script by the following url:
 <br>
 <br>
 
+#### [Reset Installation](/arch-linux/arch-reset.sh)
+
+Remove all and leave only base and base-devel. 
+
+Get this script by the following url:
+ - https://raw.githubusercontent.com/rafael-pinho/dot-files/master/arch-linux/arch-reset.sh
+<br>
+<br>
+
 #### [Arch Linux i3wm installation](/arch-linux/environments/i3)
 
 Install i3 window manager with i3status, i3lock and dmenu. Also change xinitrc to start i3 when startx is called. 
