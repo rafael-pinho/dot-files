@@ -20,6 +20,7 @@ function install_browser(){
 function install_developer_tools(){
 	sudo yum install git docker
 	systemctl enable docker.service
+	curl -L https://github.com/docker/compose/releases/download/1.6.2/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/dc
 	
 	curl https://raw.githubusercontent.com/creationix/nvm/v0.30.2/install.sh | bash
 	source ~/.bashrc
