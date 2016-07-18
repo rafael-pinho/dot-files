@@ -97,3 +97,6 @@ Install software to common use, development and other thinks to complement "serv
  - Docker-Compose
  - Git
  - Nvm
+- Numix
+ - GTK theme 
+ - Numix circle icon pack
