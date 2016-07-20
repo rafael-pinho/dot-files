@@ -41,6 +41,7 @@ function install_dot_net_core(){
 	yum upgrade -y
 	yum clean all
 	yum install rh-dotnetcore10
+	scl enable rh-dotnetcore10 bash
 	
 	echo "Press any key to continue..."
         read
