@@ -98,11 +98,11 @@ Install software to common use, development and other thinks to complement "serv
 
 - Repositories
  - EPEL 
-- Browser
- - Google-Chrome
 - Numix
  - GTK theme 
  - Numix circle icon pack
+- Browser
+ - Google-Chrome
 - Developer tools
  - Docker
  - Docker-Compose
