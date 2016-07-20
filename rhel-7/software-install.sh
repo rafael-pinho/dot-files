@@ -10,8 +10,14 @@ function get_repos(){
 	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repos-list/google-chrome.repo > /etc/yum.repos.d/google-chrome.repo
 	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repos-list/google.repo > /etc/yum.repos.d/google.repo
 	
+	subscription-manager repos --enable=rhel-7-server-dotnet-rpms
+	
 	echo "Press any key to continue..."
         read
+}
+
+function install_numix(){
+	sudo yum install numix-gtk-theme numix-icon-theme-circle
 }
 
 function install_browser(){
@@ -30,8 +36,15 @@ function install_developer_tools(){
         read
 }
 
-function install_numix(){
-	sudo yum install numix-gtk-theme numix-icon-theme-circle
+function install_dot_net_core(){
+	yum install scl-utils
+	yum clean all
+	yum upgrade -y
+	yum clean all
+	yum install rh-dotnetcore10
+	
+	echo "Press any key to continue..."
+        read
 }
 
 while [ "$USER_INPUT" != ":quit" ]; do
@@ -49,29 +62,36 @@ echo "choose what you want to do"
 printf "\n"
 echo "0 ............... all"
 echo "1 ............... get repos"
-echo "2 ............... google chrome"
-echo "3 ............... git, docker and nvm"
-echo "4 ............... numix"
+echo "2 ............... numix"
+echo "3 ............... google chrome"
+echo "4 ............... git, docker and nvm"
+echo "5 ............... dot net core"
+
 printf "\n\n:quit - EXIT\n\n"
 read USER_INPUT
 
 case $USER_INPUT in
 	0)
 	    get_repos
+	    install_numix
             install_browser
 	    install_developer_tools
+	    install_dot_net_core
 	    ;;
-	1)
+    	1)
 	    get_repos
 	    ;;
 	2)
-	    install_browser
+	    install_numix
 	    ;;
 	3)
-	    install_developer_tools
+	    install_browser
 	    ;;
 	4)
-	    install_numix
+	    install_developer_tools
+	    ;;
+	5)
+	    install_dot_net_core
 	    ;;
 esac
 
