@@ -97,15 +97,19 @@ I think this is not very usefull for you...but is for me :)
 Install software to common use, development and other thinks to complement "server with gui" installation. 
 
 - Repositories
+ - EPEL 
+ - Numix
  - Google Chrome
  - Docker
+ - Dot Net
 - Browser
  - Google-Chrome
+- Numix
+ - GTK theme 
+ - Numix circle icon pack
 - Developer tools
  - Docker
  - Docker-Compose
  - Git
  - Nvm
-- Numix
- - GTK theme 
- - Numix circle icon pack
+- Dot Net Core
