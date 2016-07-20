@@ -98,10 +98,6 @@ Install software to common use, development and other thinks to complement "serv
 
 - Repositories
  - EPEL 
- - Numix
- - Google Chrome
- - Docker
- - Dot Net
 - Browser
  - Google-Chrome
 - Numix
