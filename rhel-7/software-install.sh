@@ -5,26 +5,24 @@ function get_repos(){
 	sudo yum install http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el7.rf.x86_64.rpm
 	sudo yum install https://rhel7.iuscommunity.org/ius-release.rpm
 	
-	sudo curl http://download.opensuse.org/repositories/home:paolorotolo:numix/RedHat_RHEL-6/home:paolorotolo:numix.repo > /etc/yum.repos.d/numix.repo
-	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repos-list/docker.repo > /etc/yum.repos.d/docker.repo 
-	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repos-list/google-chrome.repo > /etc/yum.repos.d/google-chrome.repo
-	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repos-list/google.repo > /etc/yum.repos.d/google.repo
-	
-	subscription-manager repos --enable=rhel-7-server-dotnet-rpms
-	
 	echo "Press any key to continue..."
         read
 }
 
 function install_numix(){
+	sudo curl http://download.opensuse.org/repositories/home:paolorotolo:numix/RedHat_RHEL-6/home:paolorotolo:numix.repo > /etc/yum.repos.d/numix.repo
 	sudo yum install numix-gtk-theme numix-icon-theme-circle
 }
 
 function install_browser(){
+	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repos-list/google-chrome.repo > /etc/yum.repos.d/google-chrome.repo
+	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repos-list/google.repo > /etc/yum.repos.d/google.repo
 	sudo yum install google-chrome-stable
 }
 
 function install_developer_tools(){
+	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repos-list/docker.repo > /etc/yum.repos.d/docker.repo 
+	
 	sudo yum install git docker
 	systemctl enable docker.service
 	curl -L https://github.com/docker/compose/releases/download/1.6.2/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/dc
@@ -37,6 +35,7 @@ function install_developer_tools(){
 }
 
 function install_dot_net_core(){
+	subscription-manager repos --enable=rhel-7-server-dotnet-rpms
 	yum install scl-utils
 	yum clean all
 	yum upgrade -y
