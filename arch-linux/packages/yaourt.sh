@@ -1,4 +1,4 @@
-yaourt install \
+yaourt -S \
 chromium-pepper-flash \
 libcurl-compat \
 numix-circle-icon-theme-git \
