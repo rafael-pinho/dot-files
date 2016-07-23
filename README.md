@@ -16,4 +16,3 @@ See a list of avaliable distributions below.
 
 - [Arch Linux](/arch-linux)
 - [RHEL-7](/rhel-7)
-- 
