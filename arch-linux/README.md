@@ -12,9 +12,6 @@ Script created to help during arch linux installation. All steps is based on arc
 
 - https://wiki.archlinux.org/index.php/Beginners'_guide
 - https://wiki.archlinux.org/index.php/Beginners'_guide_(Português)
-
-Get this script by the following url:
-- https://raw.githubusercontent.com/rafael-pinho/dot-files/master/arch-linux/arch-install.sh
 <br>
 <br>
 
@@ -51,9 +48,6 @@ Install software to common use, development and other thinks.
 #### [Reset Installation](/arch-linux/reset-install.sh)
 
 Remove all and leave only base and base-devel. 
-
-Get this script by the following url:
- - https://raw.githubusercontent.com/rafael-pinho/dot-files/master/arch-linux/arch-reset.sh
 <br>
 <br>
 
@@ -64,24 +58,22 @@ Get this script by the following url:
 Install i3 window manager with i3status, i3lock and dmenu. Also change xinitrc to start i3 when startx is called. 
 
 Installation script and .conf files are avaliable:
- - [install.sh](https://raw.githubusercontent.com/rafael-pinho/dot-files/master/arch-linux/environments/i3/install.sh)
- - [i3.conf](https://raw.githubusercontent.com/rafael-pinho/dot-files/master/arch-linux/environments/i3/i3.conf)
+ - [install.sh](/arch-linux/environments/i3/install.sh)
+ - [i3.conf](/arch-linux/environments/i3/i3.conf)
 
 ####[Gnome](/arch-linux/environments/gnome)
 
 Install gnome with numix theme
 
 Installation script is avaliable:
- - [install.sh](https://raw.githubusercontent.com/rafael-pinho/dot-files/master/arch-linux/environments/gnome/install.sh)
+ - [install.sh](/arch-linux/environments/gnome/install.sh)
 <br>
 <br>
 
 ## [My Packages](/arch-linux/packages)
 
-#### My Arch Linux Packges List
-
 The current instaled packages in my arch linux install.
 I think this is not very usefull for you...but is for me :)
 
- - [pacman](/arch-linux/packages/pacman.sh)
- - [yaourt](/arch-linux/packages/yaourt.sh)
+- [pacman](/arch-linux/packages/pacman.sh)
+- [yaourt](/arch-linux/packages/yaourt.sh)
