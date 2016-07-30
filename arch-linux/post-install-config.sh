@@ -151,7 +151,7 @@ while [ "$USER_INPUT" != ":quit" ]; do
 clear
 printf "\n\n"
 echo "***********************************************************************"
-echo "********************   ARCH LINUX INSTALL SCRIPT   ********************"
+echo "*****************   ARCH LINUX CONFIGURATION SCRIPT   *****************"
 echo "***********************************************************************"
 printf "\n\n"
 echo "    IMPORTANT!!! RUN THIS SCRIPT USING 'SOURCE', '.' OR YOU WILL NEED"
