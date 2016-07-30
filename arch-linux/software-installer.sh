@@ -128,6 +128,18 @@ function docker_install(){
 	read
 }
 
+function virtualbox(){
+	sudo pacman -S virtualbox linux-header qt5
+	echo "Press any key to continue..."
+	read
+}
+
+function vargrant(){
+	sudo pacman -S vagrant 
+	echo "Press any key to continue..."
+	read
+}
+
 while [ "$USER_INPUT" != ":quit" ]; do
 
 clear
@@ -148,6 +160,8 @@ echo "5 ............... wallpaper managers"
 echo "6 ............... ssh client"
 echo "7 ............... nvm - npm - nodejs"
 echo "8 ............... docker - docker-compose"
+echo "9 ............... virtualbox"
+echo "9 ............... vagrant"
 printf "\n\n:quit - EXIT\n\n"
 read USER_INPUT
 
@@ -175,6 +189,12 @@ case $USER_INPUT in
     ;;
     8)
       docker_install
+    ;;
+    9)
+      virtualbox
+    ;;
+    10)
+      vagrant
     ;;
 esac
 
