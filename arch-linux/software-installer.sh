@@ -134,7 +134,7 @@ function virtualbox(){
 	read
 }
 
-function vargrant(){
+function vagrant(){
 	sudo pacman -S vagrant 
 	echo "Press any key to continue..."
 	read
