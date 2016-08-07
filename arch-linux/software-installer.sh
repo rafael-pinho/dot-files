@@ -112,7 +112,7 @@ function ssh_client_install(){
 }
 
 function nvm_install(){
-	yaourt -S nvm-git
+	curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.4/install.sh | bash
 		
 	echo "Press any key to continue..."
 	read
@@ -129,7 +129,7 @@ function docker_install(){
 }
 
 function virtualbox(){
-	sudo pacman -S virtualbox linux-header qt5
+	sudo pacman -S virtualbox linux-headers qt5
 	echo "Press any key to continue..."
 	read
 }
@@ -158,7 +158,7 @@ echo " 3 .............. file managers"
 echo " 4 .............. music player"
 echo " 5 .............. wallpaper managers"
 echo " 6 .............. ssh client"
-echo " 7 .............. nvm - npm - nodejs"
+echo " 7 .............. nvm"
 echo " 8 .............. docker - docker-compose"
 echo " 9 .............. virtualbox"
 echo "10 .............. vagrant"
