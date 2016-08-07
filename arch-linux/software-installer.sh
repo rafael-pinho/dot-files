@@ -140,6 +140,12 @@ function vagrant(){
 	read
 }
 
+function wine(){
+	sudo pacman -S wine wine_gecko wine-mono
+	echo "Press any key to continue..."
+	read
+}
+
 while [ "$USER_INPUT" != ":quit" ]; do
 
 clear
@@ -162,6 +168,7 @@ echo " 7 .............. nvm"
 echo " 8 .............. docker - docker-compose"
 echo " 9 .............. virtualbox"
 echo "10 .............. vagrant"
+echo "11 .............. wine"
 printf "\n\n:quit - EXIT\n\n"
 read USER_INPUT
 
@@ -195,6 +202,9 @@ case $USER_INPUT in
     ;;
     10)
       vagrant
+    ;;
+    11)
+      wine
     ;;
 esac
 
