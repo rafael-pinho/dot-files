@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# 2 13 15 17 18 19 20 21 22 23 24 25 26 40 41 46
+# 10 12 13 15 17 18 19 20 21 22 23 24 25 40 41
 sudo pacman -S gnome
 sudo systemctl enable gdm.service
 
@@ -10,5 +10,3 @@ sudo pacman -S gnome-extra
 
 sudo pacman -S numix-themes
 yaourt -S numix-circle-icon-theme-git
-
-
