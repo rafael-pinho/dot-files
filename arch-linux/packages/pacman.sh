@@ -224,6 +224,8 @@ ldb \
 ldns \
 less \
 lib32-acl \
+lib32-alsa-lib \
+lib32-alsa-plugins \
 lib32-attr \
 lib32-bzip2 \
 lib32-elfutils \
