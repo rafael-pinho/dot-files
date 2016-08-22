@@ -1,8 +1,4 @@
-##Arch Linux
-
-Hier you can check arch-linux scripts. See the avaliable scripts description below.
-<br>
-<br>
+#Arch Linux
 
 ## Configuration and Software Installation
 
@@ -47,7 +43,7 @@ Install software to common use, development and other thinks.
 
 #### [Reset Installation](/arch-linux/reset-install.sh)
 
-Remove all and leave only base and base-devel. 
+Remove all and leave only base and base-devel packages. 
 <br>
 <br>
 
@@ -56,24 +52,17 @@ Remove all and leave only base and base-devel.
 ####[i3-wm](/arch-linux/environments/i3)
 
 Install i3 window manager with i3status, i3lock and dmenu. Also change xinitrc to start i3 when startx is called. 
-
-Installation script and .conf files are avaliable:
- - [install.sh](/arch-linux/environments/i3/install.sh)
- - [i3.conf](/arch-linux/environments/i3/i3.conf)
+Have some configuration files to i3 and i3status too.
 
 ####[Gnome](/arch-linux/environments/gnome)
 
 Install gnome with numix theme
-
-Installation script is avaliable:
- - [install.sh](/arch-linux/environments/gnome/install.sh)
 <br>
 <br>
 
 ## [My Packages](/arch-linux/packages)
 
-The current instaled packages in my arch linux install.
-I think this is not very usefull for you...but is for me :)
+The current instaled packages in my arch linux system.
 
 - [pacman](/arch-linux/packages/pacman.sh)
 - [yaourt](/arch-linux/packages/yaourt.sh)
