@@ -2,7 +2,7 @@
 
 ## Configuration and Software Installation
 
-#### [Post-Install Configuration](/arch-linux/post-install-config.sh)
+#### [Post-Install Configuration](./post-install-config.sh)
 
 Script created to help during arch linux installation. All steps is based on archlinux wiki tutorials. For more info about arch-linux install see:
 
@@ -11,7 +11,7 @@ Script created to help during arch linux installation. All steps is based on arc
 <br>
 <br>
 
-#### [Software Installer](/arch-linux/software-installer.sh)
+#### [Software Installer](./software-installer.sh)
 
 Install software to common use, development and other thinks. 
 
@@ -41,28 +41,28 @@ Install software to common use, development and other thinks.
 <br>
 <br>
 
-#### [Reset Installation](/arch-linux/reset-install.sh)
+#### [Reset Installation](./reset-install.sh)
 
 Remove all and leave only base and base-devel packages. 
 <br>
 <br>
 
-## [Window Managers and Desktop Environments](/arch-linux/environments)
+## [Window Managers and Desktop Environments](./environments)
 
-####[i3-wm](/arch-linux/environments/i3)
+####[i3-wm](./environments/i3)
 
 Install i3 window manager with i3status, i3lock and dmenu. Also change xinitrc to start i3 when startx is called. 
 Have some configuration files to i3 and i3status too.
 
-####[Gnome](/arch-linux/environments/gnome)
+####[Gnome](./environments/gnome)
 
 Install gnome with numix theme
 <br>
 <br>
 
-## [My Packages](/arch-linux/packages)
+## [My Packages](./packages)
 
 The current instaled packages in my arch linux system.
 
-- [pacman](/arch-linux/packages/pacman.sh)
-- [yaourt](/arch-linux/packages/yaourt.sh)
+- [pacman](./packages/pacman.sh)
+- [yaourt](./packages/yaourt.sh)

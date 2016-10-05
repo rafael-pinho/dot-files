@@ -9,4 +9,5 @@ Well, if you want you can check and use this files too.
 Avaliable distributions:
 
 - [Arch Linux](/arch-linux)
-- [RHEL-7](/rhel-7)
+- [RHEL 7](/rhel-7)
+- [Elementary OS](/elementary)

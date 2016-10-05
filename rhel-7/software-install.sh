@@ -6,18 +6,24 @@ function get_repos(){
 	sudo yum install https://rhel7.iuscommunity.org/ius-release.rpm
 	
 	echo "Press any key to continue..."
-        read
+    read
 }
 
 function install_numix(){
 	sudo curl http://download.opensuse.org/repositories/home:paolorotolo:numix/RedHat_RHEL-6/home:paolorotolo:numix.repo > /etc/yum.repos.d/numix.repo
 	sudo yum install numix-gtk-theme numix-icon-theme-circle
+		
+	echo "Press any key to continue..."
+    read
 }
 
 function install_browser(){
 	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repos-list/google-chrome.repo > /etc/yum.repos.d/google-chrome.repo
 	sudo curl https://raw.githubusercontent.com/rafael-pinho/dot-files/master/rhel-7/repos-list/google.repo > /etc/yum.repos.d/google.repo
 	sudo yum install google-chrome-stable
+		
+	echo "Press any key to continue..."
+    read
 }
 
 function install_developer_tools(){
@@ -31,7 +37,7 @@ function install_developer_tools(){
 	source ~/.bashrc
 	
 	echo "Press any key to continue..."
-        read
+    read
 }
 
 function install_dot_net_core(){
@@ -44,7 +50,7 @@ function install_dot_net_core(){
 	scl enable rh-dotnetcore10 bash
 	
 	echo "Press any key to continue..."
-        read
+    read
 }
 
 while [ "$USER_INPUT" != ":quit" ]; do
@@ -74,7 +80,7 @@ case $USER_INPUT in
 	0)
 	    get_repos
 	    install_numix
-            install_browser
+        install_browser
 	    install_developer_tools
 	    install_dot_net_core
 	    ;;
@@ -96,4 +102,3 @@ case $USER_INPUT in
 esac
 
 done
-
