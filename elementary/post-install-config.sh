@@ -9,8 +9,7 @@ apt-get install software-properties-common \
 
 add-apt-repository ppa:philip.scott/elementary-tweaks
 add-apt-repository ppa:numix/ppa
-echo 'deb http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_15.04/ /' >> /etc/apt/sources.list.d/arc-theme.list
-
+echo 'deb http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04/ /' >> /etc/apt/sources.list.d/arc-theme.list
 apt-get update -y
 
 apt-get install elementary-tweaks \
